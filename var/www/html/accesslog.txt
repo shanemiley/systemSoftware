@@ -1,0 +1,18 @@
+----
+time->Sat Mar  3 20:57:35 2018
+type=PROCTITLE msg=audit(1520110655.286:482): proctitle=6765646974006163636573736C6F672E747874
+type=PATH msg=audit(1520110655.286:482): item=0 name="/home/shane/Desktop/SSAssignment/var/www/html/accesslog.txt" inode=1744297 dev=08:01 mode=0100664 ouid=1000 ogid=1000 rdev=00:00 nametype=NORMAL cap_fp=0000000000000000 cap_fi=0000000000000000 cap_fe=0 cap_fver=0
+type=CWD msg=audit(1520110655.286:482): cwd="/home/shane/Desktop/SSAssignment/var/www/html"
+type=SYSCALL msg=audit(1520110655.286:482): arch=c000003e syscall=257 success=yes exit=18 a0=ffffffffffffff9c a1=55b7a7ad22e0 a2=0 a3=0 items=1 ppid=7540 pid=10166 auid=1000 uid=1000 gid=1000 euid=1000 suid=1000 fsuid=1000 egid=1000 sgid=1000 fsgid=1000 tty=pts2 ses=1 comm="pool" exe="/usr/bin/gedit" key=(null)
+----
+time->Sat Mar  3 20:58:25 2018
+type=PROCTITLE msg=audit(1520110705.365:502): proctitle=6765646974006163636573736C6F672E747874
+type=PATH msg=audit(1520110705.365:502): item=0 name="/home/shane/Desktop/SSAssignment/var/www/html/accesslog.txt" inode=1744297 dev=08:01 mode=0100664 ouid=1000 ogid=1000 rdev=00:00 nametype=NORMAL cap_fp=0000000000000000 cap_fi=0000000000000000 cap_fe=0 cap_fver=0
+type=CWD msg=audit(1520110705.365:502): cwd="/home/shane/Desktop/SSAssignment/var/www/html"
+type=SYSCALL msg=audit(1520110705.365:502): arch=c000003e syscall=257 success=yes exit=18 a0=ffffffffffffff9c a1=55e449812ce0 a2=0 a3=0 items=1 ppid=7540 pid=10187 auid=1000 uid=1000 gid=1000 euid=1000 suid=1000 fsuid=1000 egid=1000 sgid=1000 fsgid=1000 tty=pts2 ses=1 comm="pool" exe="/usr/bin/gedit" key=(null)
+----
+time->Sat Mar  3 21:05:32 2018
+type=PROCTITLE msg=audit(1520111132.260:834): proctitle=6765646974006163636573736C6F672E747874
+type=PATH msg=audit(1520111132.260:834): item=0 name="/home/shane/Desktop/SSAssignment/var/www/html/accesslog.txt" inode=1744297 dev=08:01 mode=0100664 ouid=1000 ogid=1000 rdev=00:00 nametype=NORMAL cap_fp=0000000000000000 cap_fi=0000000000000000 cap_fe=0 cap_fver=0
+type=CWD msg=audit(1520111132.260:834): cwd="/home/shane/Desktop/SSAssignment/var/www/html"
+type=SYSCALL msg=audit(1520111132.260:834): arch=c000003e syscall=257 success=yes exit=18 a0=ffffffffffffff9c a1=55e0bba6e490 a2=0 a3=0 items=1 ppid=7540 pid=10434 auid=1000 uid=1000 gid=1000 euid=1000 suid=1000 fsuid=1000 egid=1000 sgid=1000 fsgid=1000 tty=pts2 ses=1 comm="pool" exe="/usr/bin/gedit" key=(null)
