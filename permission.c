@@ -3,7 +3,7 @@
 #include <stdio.h>
 #include <stdlib.h>
 #include "permission.h"
-
+//test
 void lock(char * src){
     char mode[] = "0777";
     char* buf = src;

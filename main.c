@@ -1,6 +1,6 @@
 // Orphan Example
 // The child process is adopted by init process, when parent process dies.
-#include<stdio.h>
+#include <stdio.h>
 #include <sys/types.h>
 #include <unistd.h>
 #include <signal.h>
@@ -11,33 +11,47 @@
 
 #include "backup.h"
 #include "permission.h"
-
-
- 
+#include "logger.h"
+#include "modified.h"
 
 int main()
 {
-    time_t now;
-    struct tm newyear;
-    double seconds;
-    char *src = "/home/shane/Desktop/SSAssignment/var/www/html/live/"; 
-    char *dest = "/home/shane/Desktop/SSAssignment/var/www/html/intranet/";
-    time(&now);  /* get current time; same as: now = time(NULL)  */
-    newyear = *localtime(&now);
-    newyear.tm_hour = 19; 
-    newyear.tm_min = 41; 
-    newyear.tm_sec = 0;
-  
-     
-   while(1) {
-             sleep(1);
-             
-             time(&now);
-             seconds = difftime(now,mktime(&newyear));
-             printf("\n%.f", seconds);
-             if (seconds == 0) {
-               backup(src, dest);
-	     }
-     }
-    return 0;
+
+  char *srcToBackup = "/home/shane/Desktop/SSAssignment/var/www/html/";
+
+  char *destOfBackup = "/home/shane/Desktop/SSAssignment/liveBackup";
+
+  //char *destOfBackup = "/home/shane/Desktop/SSAssignment/liveBackup";
+  modified();
+
+  time_t now;
+  struct tm newyear;
+  double seconds;
+  time(&now); /* get current time; same as: now = time(NULL)  */
+  newyear = *localtime(&now);
+  newyear.tm_hour = 20;
+  newyear.tm_min = 21;
+  newyear.tm_sec = 0;
+
+    
+    char buf[BUFSIZ];  
+    
+    snprintf(buf, sizeof(buf), "auditctl -w /var/www/html -p rwxa");
+    system(buf);
+   
+
+  while (1)
+  {
+   
+
+    time(&now);
+    seconds = difftime(now, mktime(&newyear));
+    printf("\n%.f", seconds);
+    if (seconds == 0)
+    {
+      backup(srcToBackup, destOfBackup);
+    }
+    sleep(1);
+  }
+  return 0;
 }
