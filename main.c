@@ -13,6 +13,7 @@
 #include "permission.h"
 #include "logger.h"
 #include "modified.h"
+#include "audit.h"
 
 int main()
 {
@@ -34,10 +35,7 @@ int main()
   newyear.tm_sec = 0;
 
     
-    char buf[BUFSIZ];  
-    
-    snprintf(buf, sizeof(buf), "auditctl -w /var/www/html -p rwxa");
-    system(buf);
+   
    
 
   while (1)
