@@ -9,17 +9,17 @@
 #include "backup.h"
 #include "permission.h"
 #include "push_live.h"
-#include "logger.h"
 
-void pushLive(char *src, char *dest)
+int main()
 {
     
-
-   logger("Pushing to live....\n");
+char *src = "/home/shane/Desktop/SSAssignment/var/www/html/intranet";
+  char *dest = "/home/shane/Desktop/SSAssignment/var/www/html/live";
+    printf("Pushing to live....\n");
     
     char buf[BUFSIZ];
     snprintf(buf, sizeof(buf), "rsync -avu %s %s -v > rsynclog.txt", src, dest);
     system(buf);
 
-    logger("Push complete\n");
+    printf("Push complete\n");
 }

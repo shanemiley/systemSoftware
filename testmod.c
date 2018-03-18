@@ -20,8 +20,9 @@ int main()
 
   time_t ltime; /* calendar time */
     ltime=time(NULL); /* get current cal time */
-    printf("%s",asctime( localtime(&ltime) ) );
+   // printf("%s",asctime( localtime(&ltime) ) );
 
+   char *user =getenv("USER");
   while (1)
   {
     int length, i = 0;
@@ -59,7 +60,7 @@ int main()
           {
             printf("The file %s was created.\n", event->name);
             fp = fopen("modifiedLogFile.txt", "a+");
-            fprintf(fp, "The file %s was created %s.\n", event->name,asctime( localtime(&ltime) ));
+            fprintf(fp, "The file %s was created by %s  at %s.\n", event->name,user, asctime( localtime(&ltime)));
             fclose(fp);
           }
         }
@@ -73,7 +74,7 @@ int main()
           {
             printf("The file %s was deleted.\n", event->name);
             fp = fopen("modifiedLogFile.txt", "a+");
-            fprintf(fp, "The file %s was deleted.\n", event->name);
+            fprintf(fp, "The file %s was deleted by %s  at %s.\n", event->name,user, asctime( localtime(&ltime)));
             fclose(fp);
           }
         }
@@ -87,7 +88,7 @@ int main()
           {
             printf("The file %s was modified.\n", event->name);
             fp = fopen("modifiedLogFile.txt", "a+");
-            fprintf(fp, "The file %s was modified.\n", event->name);
+            fprintf(fp, "The file %s was modified by %s  at %s.\n", event->name,user, asctime( localtime(&ltime)));
             fclose(fp);
           }
         }

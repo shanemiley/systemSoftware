@@ -8,8 +8,9 @@
 #include <time.h>
 #include "backup.h"
 #include "permission.h"
+#include "push_live.h"
 
-void backup(char *src, char *dest)
+void backup(char *srcToBackup, char *destOfBackup,char *srcIntra, char *destLive)
 {
 
     time_t now;
@@ -29,16 +30,18 @@ void backup(char *src, char *dest)
         printf("\n%.f", seconds);
         if (seconds == 0)
         {
-            lock(src);
+            lock(srcToBackup);
 
             char buf[BUFSIZ];
 
-            printf("%s\n", src);
-            printf("%s\n", dest);
-            snprintf(buf, sizeof(buf), "cp --recursive %s %s", src, dest);
+            logger("backing up....\n");
+            snprintf(buf, sizeof(buf), "cp --recursive %s %s", srcToBackup, destOfBackup);
             system(buf);
-            printf("done\n");
-            unlock(src);
+            logger("backup done\n");
+
+            unlock(srcToBackup);
+            push_live(srcIntra,destLive);
+
         }
         sleep(1);
     }

@@ -1,6 +1,6 @@
 CC=gcc
-objects = main.o  backup.o permission.o modified.o logger.o audit.o
-headers = backup.h permission.h logger.h modified.h audit.h
+objects = main.o  backup.o permission.o modified.o logger.o audit.o push_live.o
+headers = backup.h permission.h logger.h modified.h audit.h push_live.h
 
 myprog : $(objects)
 	$(CC) -o mainProg $(objects) -lm
@@ -22,6 +22,9 @@ logger.o : logger.c
 
 audit.o : audit.c
 	$(CC) -c audit.c
+
+push_live.o : push_live.c
+	$(CC) -c push_live.c
 
 
 clean:
