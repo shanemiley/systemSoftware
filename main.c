@@ -18,38 +18,80 @@
 int main()
 {
 
+  logger("The backup and log program has begun");
   char *srcToBackup = "/home/shane/Desktop/SSAssignment/var/www/html/";
-
   char *destOfBackup = "/home/shane/Desktop/SSAssignment/liveBackup";
 
-  //char *destOfBackup = "/home/shane/Desktop/SSAssignment/liveBackup";
-  modified();
+  int pid = fork();
 
-  time_t now;
-  struct tm newyear;
-  double seconds;
-  time(&now); /* get current time; same as: now = time(NULL)  */
-  newyear = *localtime(&now);
-  newyear.tm_hour = 20;
-  newyear.tm_min = 21;
-  newyear.tm_sec = 0;
-
-    
-   
-   
-
-  while (1)
+  if (pid > 0)
   {
-   
-
-    time(&now);
-    seconds = difftime(now, mktime(&newyear));
-    printf("\n%.f", seconds);
-    if (seconds == 0)
-    {
-      backup(srcToBackup, destOfBackup);
-    }
-    sleep(1);
+    printf("Parent process 1\n");
+    // printf("before audit\n");
+    //  audit();
+    // printf("after audit\n");
+    // printf("before back\n");
+    // backup(srcToBackup, destOfBackup);
+    // printf("after back\n");
+    sleep(2);
+    exit(EXIT_SUCCESS);
   }
+  else if (pid == 0)
+  {
+    printf("child process 1\n");
+    if (setsid() < 0)
+    {
+      exit(EXIT_FAILURE);
+    }
+
+    //umask(0);
+    // if (chdir("/") < 0)
+    // {
+    //   exit(EXIT_FAILURE);
+    // }
+    // int x;
+    // for (x = sysconf(_SC_OPEN_MAX); x >= 0; x--)
+    // {
+    //   close(x);
+    // }
+   
+  }
+  int pid2 = fork();
+
+  if (pid2 > 0)
+  {
+    printf("Parent process 2\n");
+    // printf("before audit\n");
+    //  audit();
+    // printf("after audit\n");
+    // printf("before back\n");
+    // backup(srcToBackup, destOfBackup);
+    // printf("after back\n");
+    sleep(2);
+    exit(EXIT_SUCCESS);
+  }
+  else if (pid2 == 0)
+  {
+    printf("child process 2\n");
+    if (setsid() < 0)
+    {
+      exit(EXIT_FAILURE);
+    }
+
+    umask(0);
+    if (chdir("/") < 0)
+    {
+      exit(EXIT_FAILURE);
+    }
+    int x;
+    for (x = sysconf(_SC_OPEN_MAX); x >= 0; x--)
+    {
+      close(x);
+    }
+   
+  }
+  // printf("before mod\n");
+  // modified();
+
   return 0;
 }

@@ -13,6 +13,9 @@
 
 void modified()
 {
+
+  FILE *fp;
+
   while (1)
   {
     int length, i = 0;
@@ -49,6 +52,9 @@ void modified()
           else
           {
             printf("The file %s was created.\n", event->name);
+            fp = fopen("modifiedLogFile.txt", "w+");
+            fprintf(fp, "The file %s was created.\n", event->name);
+            fclose(fp);
           }
         }
         else if (event->mask & IN_DELETE)
@@ -60,6 +66,9 @@ void modified()
           else
           {
             printf("The file %s was deleted.\n", event->name);
+            fp = fopen("modifiedLogFile.txt", "w+");
+            fprintf(fp, "The file %s was deleted.\n", event->name);
+            fclose(fp);
           }
         }
         else if (event->mask & IN_MODIFY)
@@ -71,6 +80,9 @@ void modified()
           else
           {
             printf("The file %s was modified.\n", event->name);
+            fp = fopen("modifiedLogFile.txt", "w+");
+            fprintf(fp, "The file %s was modified.\n", event->name);
+            fclose(fp);
           }
         }
       }

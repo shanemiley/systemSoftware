@@ -1,6 +1,8 @@
 {
     "files.associations": {
         "logger.h": "c",
-        "stdio.h": "c"
+        "stdio.h": "c",
+        "permission.h": "c",
+        "stat.h": "c"
     }
 }

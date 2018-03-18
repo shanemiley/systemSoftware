@@ -1,0 +1,12 @@
+The file modtestfile.txt was deleted.
+The file balh.txt was created.
+The file balh.txt was modified.
+The file balh.txt was modified.
+The file balh.txt was deleted.
+The file testmod.c was modified.
+The file testmod.c was modified.
+The file tetsvkuvu.txt was created.
+The file testing.txt was created Sun Mar 18 16:33:09 2018
+.
+The file testing.txt was modified.
+The file testing.txt was modified.
