@@ -6,6 +6,8 @@
 #include <sys/types.h>
 #include <sys/inotify.h>
 #include <unistd.h>
+#include <time.h>
+
 #include "modified.h"
 
 #define EVENT_SIZE (sizeof(struct inotify_event))
@@ -16,6 +18,11 @@ void modified()
 
   FILE *fp;
 
+  time_t ltime; /* calendar time */
+    ltime=time(NULL); /* get current cal time */
+   // printf("%s",asctime( localtime(&ltime) ) );
+
+   char *user =getenv("USER");
   while (1)
   {
     int length, i = 0;
@@ -52,8 +59,8 @@ void modified()
           else
           {
             printf("The file %s was created.\n", event->name);
-            fp = fopen("modifiedLogFile.txt", "w+");
-            fprintf(fp, "The file %s was created.\n", event->name);
+            fp = fopen("modifiedLogFile.txt", "a+");
+            fprintf(fp, "The file %s was created by %s  at %s.\n", event->name,user, asctime( localtime(&ltime)));
             fclose(fp);
           }
         }
@@ -66,8 +73,8 @@ void modified()
           else
           {
             printf("The file %s was deleted.\n", event->name);
-            fp = fopen("modifiedLogFile.txt", "w+");
-            fprintf(fp, "The file %s was deleted.\n", event->name);
+            fp = fopen("modifiedLogFile.txt", "a+");
+            fprintf(fp, "The file %s was deleted by %s  at %s.\n", event->name,user, asctime( localtime(&ltime)));
             fclose(fp);
           }
         }
@@ -80,8 +87,8 @@ void modified()
           else
           {
             printf("The file %s was modified.\n", event->name);
-            fp = fopen("modifiedLogFile.txt", "w+");
-            fprintf(fp, "The file %s was modified.\n", event->name);
+            fp = fopen("modifiedLogFile.txt", "a+");
+            fprintf(fp, "The file %s was modified by %s  at %s.\n", event->name,user, asctime( localtime(&ltime)));
             fclose(fp);
           }
         }

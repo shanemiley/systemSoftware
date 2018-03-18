@@ -5,10 +5,12 @@
 #include <stdlib.h>
 #include "audit.h"
 
-void audit()
+int audit()
 {
     char buf[BUFSIZ];
 
     snprintf(buf, sizeof(buf), "auditctl -w /var/www/html -p rwxa");
     system(buf);
+
+    return 0;
 }

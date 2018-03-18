@@ -1,0 +1,38 @@
+message: The backup and log program has begun user: shane time: Sun Mar 18 18:03:56 2018
+ message: Parent process created
+ user: shane time: Sun Mar 18 18:03:56 2018
+ message: calling audit
+ user: shane time: Sun Mar 18 18:03:56 2018
+ message: child process created
+ user: shane time: Sun Mar 18 18:03:56 2018
+ message: calling backup in child
+ user: shane time: Sun Mar 18 18:03:56 2018
+ message: after audit 
+ user: shane time: Sun Mar 18 18:03:56 2018
+ message: backing up....
+ user: shane time: Sun Mar 18 18:04:00 2018
+ message: backup done
+ user: shane time: Sun Mar 18 18:04:00 2018
+ message: Pushing to live....
+ user: shane time: Sun Mar 18 18:04:00 2018
+ message: Push complete
+ user: shane time: Sun Mar 18 18:04:00 2018
+ message: The backup and log program has begun user: shane time: Sun Mar 18 19:49:54 2018
+ message: Parent process created
+ user: shane time: Sun Mar 18 19:49:54 2018
+ message: calling audit
+ user: shane time: Sun Mar 18 19:49:54 2018
+ message: audit executed successfully 
+ user: shane time: Sun Mar 18 19:49:54 2018
+ message: after audit 
+ user: shane time: Sun Mar 18 19:49:54 2018
+ message: The backup and log program has begun user: root time: Sun Mar 18 19:50:14 2018
+ message: Parent process created
+ user: root time: Sun Mar 18 19:50:14 2018
+ message: calling audit
+ user: root time: Sun Mar 18 19:50:14 2018
+ message: audit executed successfully 
+ user: root time: Sun Mar 18 19:50:14 2018
+ message: after audit 
+ user: root time: Sun Mar 18 19:50:14 2018
+ 

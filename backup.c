@@ -9,6 +9,7 @@
 #include "backup.h"
 #include "permission.h"
 #include "push_live.h"
+#include "logger.h"
 
 void backup(char *srcToBackup, char *destOfBackup,char *srcIntra, char *destLive)
 {
@@ -18,8 +19,8 @@ void backup(char *srcToBackup, char *destOfBackup,char *srcIntra, char *destLive
     double seconds;
     time(&now); /* get current time; same as: now = time(NULL)  */
     newyear = *localtime(&now);
-    newyear.tm_hour = 23;
-    newyear.tm_min = 55;
+    newyear.tm_hour = 18;
+    newyear.tm_min = 04;
     newyear.tm_sec = 0;
 
     while (1)
@@ -27,7 +28,7 @@ void backup(char *srcToBackup, char *destOfBackup,char *srcIntra, char *destLive
 
         time(&now);
         seconds = difftime(now, mktime(&newyear));
-        printf("\n%.f", seconds);
+        //printf("\n%.f", seconds);
         if (seconds == 0)
         {
             lock(srcToBackup);
@@ -40,7 +41,7 @@ void backup(char *srcToBackup, char *destOfBackup,char *srcIntra, char *destLive
             logger("backup done\n");
 
             unlock(srcToBackup);
-            push_live(srcIntra,destLive);
+            pushLive(srcIntra,destLive);
 
         }
         sleep(1);

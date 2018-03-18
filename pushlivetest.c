@@ -15,11 +15,11 @@ int main()
     
 char *src = "/home/shane/Desktop/SSAssignment/var/www/html/intranet";
   char *dest = "/home/shane/Desktop/SSAssignment/var/www/html/live";
-    printf("Pushing to live....\n");
+   logger("Pushing to live....\n");
     
     char buf[BUFSIZ];
     snprintf(buf, sizeof(buf), "rsync -avu %s %s -v > rsynclog.txt", src, dest);
     system(buf);
 
-    printf("Push complete\n");
+    logger("Push complete\n");
 }

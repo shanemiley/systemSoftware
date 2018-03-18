@@ -3,6 +3,7 @@
         "logger.h": "c",
         "stdio.h": "c",
         "permission.h": "c",
-        "stat.h": "c"
+        "stat.h": "c",
+        "push_live.h": "c"
     }
 }
