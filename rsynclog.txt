@@ -7,7 +7,6 @@ intranet/index.html is uptodate
 intranet/package-lock.json is uptodate
 intranet/package.json is uptodate
 intranet/testing.txt is uptodate
-intranet/
 intranet/css/creative.css is uptodate
 intranet/css/creative.min.css is uptodate
 intranet/img/header.jpg is uptodate
@@ -103,5 +102,5 @@ intranet/vendor/scrollreveal/scrollreveal.js is uptodate
 intranet/vendor/scrollreveal/scrollreveal.min.js is uptodate
 total: matches=0  hash_hits=0  false_alarms=0 data=0
 
-sent 3,544 bytes  received 6,405 bytes  19,898.00 bytes/sec
-total size is 6,150,759  speedup is 618.23
+sent 3,548 bytes  received 6,405 bytes  19,906.00 bytes/sec
+total size is 6,150,759  speedup is 617.98

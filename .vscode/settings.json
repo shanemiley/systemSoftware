@@ -4,6 +4,8 @@
         "stdio.h": "c",
         "permission.h": "c",
         "stat.h": "c",
-        "push_live.h": "c"
+        "push_live.h": "c",
+        "types.h": "c",
+        "signal.h": "c"
     }
 }

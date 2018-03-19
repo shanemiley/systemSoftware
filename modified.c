@@ -54,11 +54,11 @@ void modified()
         {
           if (event->mask & IN_ISDIR)
           {
-            printf("The directory %s was created.\n", event->name);
+           // printf("The directory %s was created.\n", event->name);
           }
           else
           {
-            printf("The file %s was created.\n", event->name);
+           // printf("The file %s was created.\n", event->name);
             fp = fopen("modifiedLogFile.txt", "a+");
             fprintf(fp, "The file %s was created by %s  at %s.\n", event->name,user, asctime( localtime(&ltime)));
             fclose(fp);
@@ -68,11 +68,11 @@ void modified()
         {
           if (event->mask & IN_ISDIR)
           {
-            printf("The directory %s was deleted.\n", event->name);
+           // printf("The directory %s was deleted.\n", event->name);
           }
           else
           {
-            printf("The file %s was deleted.\n", event->name);
+           // printf("The file %s was deleted.\n", event->name);
             fp = fopen("modifiedLogFile.txt", "a+");
             fprintf(fp, "The file %s was deleted by %s  at %s.\n", event->name,user, asctime( localtime(&ltime)));
             fclose(fp);
@@ -82,11 +82,11 @@ void modified()
         {
           if (event->mask & IN_ISDIR)
           {
-            printf("The directory %s was modified.\n", event->name);
+            //printf("The directory %s was modified.\n", event->name);
           }
           else
           {
-            printf("The file %s was modified.\n", event->name);
+            //printf("The file %s was modified.\n", event->name);
             fp = fopen("modifiedLogFile.txt", "a+");
             fprintf(fp, "The file %s was modified by %s  at %s.\n", event->name,user, asctime( localtime(&ltime)));
             fclose(fp);

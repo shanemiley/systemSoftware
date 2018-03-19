@@ -1,9 +1,192 @@
-The file modtestfile.txt was deleted.
-ied.
-The file modifiedLogFile.txt was modified.
-The file testmod.c was modified.
-The file testmod.c was modified.
-The file pushlivetest.c was created by shane  at Sun Mar 18 16:46:13 2018
+The file LogEverythingOnServer.txt was modified by shane  at Mon Mar 19 12:26:26 2018
 .
-The file pushlivetest.c was modified.
-The file pushlivetest.c was modified.
+The file LogEverythingOnServer.txt was modified by shane  at Mon Mar 19 12:32:07 2018
+.
+The file LogEverythingOnServer.txt was modified by shane  at Mon Mar 19 12:33:29 2018
+.
+The file LogEverythingOnServer.txt was modified by shane  at Mon Mar 19 12:35:14 2018
+.
+The file LogEverythingOnServer.txt was modified by shane  at Mon Mar 19 12:37:17 2018
+.
+The file messagequeue.c was modified by shane  at Mon Mar 19 12:37:17 2018
+.
+The file messagequeue.c was modified by shane  at Mon Mar 19 12:37:17 2018
+.
+The file messagequeue.c was modified by shane  at Mon Mar 19 12:37:17 2018
+.
+The file messagequeue.c was modified by shane  at Mon Mar 19 12:37:17 2018
+.
+The file audit.c was modified by shane  at Mon Mar 19 12:39:57 2018
+.
+The file audit.c was modified by shane  at Mon Mar 19 12:39:57 2018
+.
+The file audit.c was modified by shane  at Mon Mar 19 12:39:57 2018
+.
+The file audit.o was deleted by shane  at Mon Mar 19 12:39:57 2018
+.
+The file audit.o was modified by shane  at Mon Mar 19 12:39:57 2018
+.
+The file audit.o was modified by shane  at Mon Mar 19 12:39:57 2018
+.
+The file audit.o was modified by shane  at Mon Mar 19 12:39:57 2018
+.
+The file mainProg was deleted by shane  at Mon Mar 19 12:39:57 2018
+.
+The file mainProg was created by shane  at Mon Mar 19 12:39:57 2018
+.
+The file mainProg was modified by shane  at Mon Mar 19 12:39:57 2018
+.
+The file mainProg was modified by shane  at Mon Mar 19 12:39:57 2018
+.
+The file mainProg was modified by shane  at Mon Mar 19 12:39:57 2018
+.
+The file mainProg was modified by shane  at Mon Mar 19 12:39:57 2018
+.
+The file mainProg was modified by shane  at Mon Mar 19 12:39:57 2018
+.
+The file LogEverythingOnServer.txt was modified by shane  at Mon Mar 19 12:39:57 2018
+.
+The file LogEverythingOnServer.txt was modified by shane  at Mon Mar 19 12:39:57 2018
+.
+The file LogEverythingOnServer.txt was modified by shane  at Mon Mar 19 12:39:57 2018
+.
+The file LogEverythingOnServer.txt was modified by shane  at Mon Mar 19 12:39:57 2018
+.
+The file LogEverythingOnServer.txt was modified by shane  at Mon Mar 19 12:40:52 2018
+.
+The file modifiedLogFile.txt was modified by shane  at Mon Mar 19 12:40:52 2018
+.
+The file LogEverythingOnServer.txt was modified by shane  at Mon Mar 19 12:39:57 2018
+.
+The file LogEverythingOnServer.txt was modified by shane  at Mon Mar 19 12:44:44 2018
+.
+The file LogEverythingOnServer.txt was modified by shane  at Mon Mar 19 12:46:44 2018
+.
+The file LogEverythingOnServer.txt was modified by shane  at Mon Mar 19 12:46:44 2018
+.
+The file LogEverythingOnServer.txt was modified by shane  at Mon Mar 19 12:48:39 2018
+.
+The file LogEverythingOnServer.txt was modified by shane  at Mon Mar 19 12:52:38 2018
+.
+The file LogEverythingOnServer.txt was modified by shane  at Mon Mar 19 12:52:38 2018
+.
+The file LogEverythingOnServer.txt was modified by shane  at Mon Mar 19 13:02:06 2018
+.
+The file LogEverythingOnServer.txt was modified by shane  at Mon Mar 19 13:30:24 2018
+.
+The file messagequeue.c was modified by shane  at Mon Mar 19 13:30:24 2018
+.
+The file messagequeue.c was modified by shane  at Mon Mar 19 13:30:24 2018
+.
+The file messagequeue.c was modified by shane  at Mon Mar 19 13:30:24 2018
+.
+The file messagequeue.c was modified by shane  at Mon Mar 19 13:30:24 2018
+.
+The file LogEverythingOnServer.txt was modified by shane  at Mon Mar 19 13:31:46 2018
+.
+The file LogEverythingOnServer.txt was modified by shane  at Mon Mar 19 13:32:51 2018
+.
+The file LogEverythingOnServer.txt was modified by shane  at Mon Mar 19 13:47:19 2018
+.
+The file LogEverythingOnServer.txt was modified by shane  at Mon Mar 19 13:50:51 2018
+.
+The file LogEverythingOnServer.txt was modified by shane  at Mon Mar 19 13:52:44 2018
+.
+The file LogEverythingOnServer.txt was modified by shane  at Mon Mar 19 13:56:57 2018
+.
+The file backupclient was created by shane  at Mon Mar 19 14:18:43 2018
+.
+The file backupclient was modified by shane  at Mon Mar 19 14:18:43 2018
+.
+The file backupclient was modified by shane  at Mon Mar 19 14:18:43 2018
+.
+The file backupclient was modified by shane  at Mon Mar 19 14:18:43 2018
+.
+The file backupclient was modified by shane  at Mon Mar 19 14:18:43 2018
+.
+The file backupclient was modified by shane  at Mon Mar 19 14:18:43 2018
+.
+The file backupclient was modified by shane  at Mon Mar 19 14:18:43 2018
+.
+The file backupclient was modified by shane  at Mon Mar 19 14:18:43 2018
+.
+The file backupclient was modified by shane  at Mon Mar 19 14:18:43 2018
+.
+The file backupclient was modified by shane  at Mon Mar 19 14:18:43 2018
+.
+The file backupclient was deleted by shane  at Mon Mar 19 14:18:43 2018
+.
+The file makefile was modified by shane  at Mon Mar 19 14:18:43 2018
+.
+The file makefile was modified by shane  at Mon Mar 19 14:18:43 2018
+.
+The file mainProg was deleted by shane  at Mon Mar 19 14:18:43 2018
+.
+The file backupclient.c was modified by shane  at Mon Mar 19 14:29:35 2018
+.
+The file main.c was modified by shane  at Mon Mar 19 14:29:35 2018
+.
+The file main.c was modified by shane  at Mon Mar 19 14:29:35 2018
+.
+The file backupclient was deleted by shane  at Mon Mar 19 14:29:35 2018
+.
+The file backupclient was modified by shane  at Mon Mar 19 14:29:35 2018
+.
+The file backupclient was modified by shane  at Mon Mar 19 14:29:35 2018
+.
+The file backupclient was modified by shane  at Mon Mar 19 14:29:35 2018
+.
+The file backupclient was modified by shane  at Mon Mar 19 14:29:35 2018
+.
+The file backupclient was modified by shane  at Mon Mar 19 14:29:35 2018
+.
+The file LogEverythingOnServer.txt was modified by shane  at Mon Mar 19 14:33:30 2018
+.
+The file LogEverythingOnServer.txt was modified by shane  at Mon Mar 19 14:39:32 2018
+.
+The file main.c was modified by shane  at Mon Mar 19 14:39:32 2018
+.
+The file main.c was modified by shane  at Mon Mar 19 14:39:32 2018
+.
+The file LogEverythingOnServer.txt was modified by shane  at Mon Mar 19 14:41:12 2018
+.
+The file LogEverythingOnServer.txt was modified by shane  at Mon Mar 19 14:41:12 2018
+.
+The file rsynclog.txt was modified by shane  at Mon Mar 19 14:41:12 2018
+.
+The file rsynclog.txt was modified by shane  at Mon Mar 19 14:41:12 2018
+.
+The file rsynclog.txt was modified by shane  at Mon Mar 19 14:41:12 2018
+.
+The file LogEverythingOnServer.txt was modified by shane  at Mon Mar 19 14:41:12 2018
+.
+The file LogEverythingOnServer.txt was modified by shane  at Mon Mar 19 14:43:13 2018
+.
+The file LogEverythingOnServer.txt was modified by shane  at Mon Mar 19 14:43:13 2018
+.
+The file LogEverythingOnServer.txt was modified by shane  at Mon Mar 19 14:43:13 2018
+.
+The file LogEverythingOnServer.txt was modified by shane  at Mon Mar 19 14:43:13 2018
+.
+The file rsynclog.txt was modified by shane  at Mon Mar 19 14:43:13 2018
+.
+The file rsynclog.txt was modified by shane  at Mon Mar 19 14:43:13 2018
+.
+The file rsynclog.txt was modified by shane  at Mon Mar 19 14:43:13 2018
+.
+The file rsynclog.txt was modified by shane  at Mon Mar 19 14:43:13 2018
+.
+The file rsynclog.txt was modified by shane  at Mon Mar 19 14:43:13 2018
+.
+The file rsynclog.txt was modified by shane  at Mon Mar 19 14:43:13 2018
+.
+The file rsynclog.txt was modified by shane  at Mon Mar 19 14:43:13 2018
+.
+The file rsynclog.txt was modified by shane  at Mon Mar 19 14:43:13 2018
+.
+The file rsynclog.txt was modified by shane  at Mon Mar 19 14:43:13 2018
+.
+The file LogEverythingOnServer.txt was modified by shane  at Mon Mar 19 14:43:13 2018
+.
+The file LogEverythingOnServer.txt was modified by shane  at Mon Mar 19 16:11:33 2018
+.

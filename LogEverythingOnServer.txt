@@ -1,38 +1,303 @@
-message: The backup and log program has begun user: shane time: Sun Mar 18 18:03:56 2018
- message: Parent process created
- user: shane time: Sun Mar 18 18:03:56 2018
- message: calling audit
- user: shane time: Sun Mar 18 18:03:56 2018
- message: child process created
- user: shane time: Sun Mar 18 18:03:56 2018
- message: calling backup in child
- user: shane time: Sun Mar 18 18:03:56 2018
- message: after audit 
- user: shane time: Sun Mar 18 18:03:56 2018
- message: backing up....
- user: shane time: Sun Mar 18 18:04:00 2018
+message: The backup and log program has begun user: shane time: Mon Mar 19 12:23:30 2018
+ message: inside the message queue user: shane time: Mon Mar 19 12:23:30 2018
+ message: inside the else if user: shane time: Mon Mar 19 12:23:30 2018
+ message: audit executed successfully 
+ user: shane time: Mon Mar 19 12:23:30 2018
+ message: back mess fork 
+ user: shane time: Mon Mar 19 12:23:30 2018
+ message: inside bakup mess q user: shane time: Mon Mar 19 12:23:30 2018
+ message: mod fork 
+ user: shane time: Mon Mar 19 12:23:30 2018
+ message: The backup and log program has begun user: shane time: Mon Mar 19 12:26:26 2018
+ message: inside the message queue user: shane time: Mon Mar 19 12:26:26 2018
+ message: inside the else if user: shane time: Mon Mar 19 12:26:26 2018
+ message: audit executed successfully 
+ user: shane time: Mon Mar 19 12:26:26 2018
+ message: mod fork 
+ user: shane time: Mon Mar 19 12:26:26 2018
+ message: back mess fork 
+ user: shane time: Mon Mar 19 12:26:26 2018
+ message: inside bakup mess q user: shane time: Mon Mar 19 12:26:26 2018
+ message: The backup and log program has begun user: shane time: Mon Mar 19 12:32:07 2018
+ message: inside the message queue user: shane time: Mon Mar 19 12:32:07 2018
+ message: inside the else if user: shane time: Mon Mar 19 12:32:07 2018
+ message: audit executed successfully 
+ user: shane time: Mon Mar 19 12:32:07 2018
+ message: mod fork 
+ user: shane time: Mon Mar 19 12:32:07 2018
+ message: back mess fork 
+ user: shane time: Mon Mar 19 12:32:07 2018
+ message: inside bakup mess q user: shane time: Mon Mar 19 12:32:07 2018
+ message: The backup and log program has begun user: shane time: Mon Mar 19 12:33:29 2018
+ message: inside the else if user: shane time: Mon Mar 19 12:33:29 2018
+ message: audit executed successfully 
+ user: shane time: Mon Mar 19 12:33:29 2018
+ message: mod fork 
+ user: shane time: Mon Mar 19 12:33:29 2018
+ message: back mess fork 
+ user: shane time: Mon Mar 19 12:33:29 2018
+ message: inside bakup mess q user: shane time: Mon Mar 19 12:33:29 2018
+ message: The backup and log program has begun user: shane time: Mon Mar 19 12:35:14 2018
+ message: inside the else if user: shane time: Mon Mar 19 12:35:14 2018
+ message: audit executed successfully 
+ user: shane time: Mon Mar 19 12:35:14 2018
+ message: mod fork 
+ user: shane time: Mon Mar 19 12:35:14 2018
+ message: back mess fork 
+ user: shane time: Mon Mar 19 12:35:14 2018
+ message: inside bakup mess q user: shane time: Mon Mar 19 12:35:14 2018
+ message: The backup and log program has begun user: shane time: Mon Mar 19 12:37:17 2018
+ message: inside the else if user: shane time: Mon Mar 19 12:37:17 2018
+ message: audit executed successfully 
+ user: shane time: Mon Mar 19 12:37:17 2018
+ message: mod fork 
+ user: shane time: Mon Mar 19 12:37:17 2018
+ message: back mess fork 
+ user: shane time: Mon Mar 19 12:37:17 2018
+ message: inside bakup mess q user: shane time: Mon Mar 19 12:37:17 2018
+ message: The backup and log program has begun user: shane time: Mon Mar 19 12:38:35 2018
+ message: inside the else if----------------- user: shane time: Mon Mar 19 12:38:35 2018
+ message: audit executed successfully 
+ user: shane time: Mon Mar 19 12:38:35 2018
+ message: back mess fork 
+ user: shane time: Mon Mar 19 12:38:35 2018
+ message: inside bakup mess q user: shane time: Mon Mar 19 12:38:35 2018
+ message: mod fork 
+ user: shane time: Mon Mar 19 12:38:35 2018
+ message: The backup and log program has begun user: shane time: Mon Mar 19 12:39:57 2018
+ message: inside the else if----------------- user: shane time: Mon Mar 19 12:39:57 2018
+ message: audit executed successfully 
+ user: shane time: Mon Mar 19 12:39:57 2018
+ message: back mess fork 
+ user: shane time: Mon Mar 19 12:39:57 2018
+ message: inside bakup mess q user: shane time: Mon Mar 19 12:39:57 2018
+ message: mod fork 
+ user: shane time: Mon Mar 19 12:39:57 2018
+ message: The backup and log program has begun user: shane time: Mon Mar 19 12:40:52 2018
+ message: inside the else if----------------- user: shane time: Mon Mar 19 12:40:52 2018
+ message: audit executed successfully 
+ user: shane time: Mon Mar 19 12:40:52 2018
+ message: mod fork 
+ user: shane time: Mon Mar 19 12:40:52 2018
+ message: back mess fork 
+ user: shane time: Mon Mar 19 12:40:52 2018
+ message: inside bakup mess q user: shane time: Mon Mar 19 12:40:52 2018
+ message: The backup and log program has begun user: shane time: Mon Mar 19 12:44:44 2018
+ message: audit executed successfully 
+ user: shane time: Mon Mar 19 12:44:44 2018
+ message: mod fork 
+ user: shane time: Mon Mar 19 12:44:44 2018
+ message: back mess fork 
+ user: shane time: Mon Mar 19 12:44:44 2018
+ message: inside bakup mess q user: shane time: Mon Mar 19 12:44:44 2018
+ message: The backup and log program has begun user: shane time: Mon Mar 19 12:46:44 2018
+ message: audit executed successfully 
+ user: shane time: Mon Mar 19 12:46:44 2018
+ message: mod fork 
+ user: shane time: Mon Mar 19 12:46:44 2018
+ message: back mess fork 
+ user: shane time: Mon Mar 19 12:46:44 2018
+ message: inside bakup mess q user: shane time: Mon Mar 19 12:46:44 2018
+ message: The backup and log program has begun user: shane time: Mon Mar 19 12:48:39 2018
+ message: audit executed successfully 
+ user: shane time: Mon Mar 19 12:48:39 2018
+ message: mod fork 
+ user: shane time: Mon Mar 19 12:48:39 2018
+ message: back mess fork 
+ user: shane time: Mon Mar 19 12:48:39 2018
+ message: inside bakup mess q user: shane time: Mon Mar 19 12:48:39 2018
+ message: The backup and log program has begun user: shane time: Mon Mar 19 12:52:38 2018
+ message: audit executed successfully 
+ user: shane time: Mon Mar 19 12:52:38 2018
+ message: mod fork 
+ user: shane time: Mon Mar 19 12:52:38 2018
+ message: back mess fork 
+ user: shane time: Mon Mar 19 12:52:38 2018
+ message: inside bakup mess q user: shane time: Mon Mar 19 12:52:38 2018
+ message: The backup and log program has begun user: shane time: Mon Mar 19 13:02:06 2018
+ message: audit executed successfully 
+ user: shane time: Mon Mar 19 13:02:06 2018
+ message: mod fork 
+ user: shane time: Mon Mar 19 13:02:06 2018
+ message: back mess fork 
+ user: shane time: Mon Mar 19 13:02:06 2018
+ message: inside bakup mess q user: shane time: Mon Mar 19 13:02:06 2018
+ message: The backup and log program has begun user: shane time: Mon Mar 19 13:18:49 2018
+ message: audit executed successfully 
+ user: shane time: Mon Mar 19 13:18:49 2018
+ message: back mess fork 
+ user: shane time: Mon Mar 19 13:18:49 2018
+ message: inside bakup mess q user: shane time: Mon Mar 19 13:18:49 2018
+ message: mod fork 
+ user: shane time: Mon Mar 19 13:18:49 2018
+ message: The backup and log program has begun user: shane time: Mon Mar 19 13:25:22 2018
+ message: audit executed successfully 
+ user: shane time: Mon Mar 19 13:25:22 2018
+ message: back mess fork 
+ user: shane time: Mon Mar 19 13:25:22 2018
+ message: inside bakup mess q user: shane time: Mon Mar 19 13:25:22 2018
+ message: mod fork 
+ user: shane time: Mon Mar 19 13:25:22 2018
+ message: The backup and log program has begun user: shane time: Mon Mar 19 13:30:24 2018
+ message: audit executed successfully 
+ user: shane time: Mon Mar 19 13:30:24 2018
+ message: mod fork 
+ user: shane time: Mon Mar 19 13:30:24 2018
+ message: back mess fork 
+ user: shane time: Mon Mar 19 13:30:24 2018
+ message: inside bakup mess q user: shane time: Mon Mar 19 13:30:24 2018
+ message: The backup and log program has begun user: shane time: Mon Mar 19 13:31:46 2018
+ message: audit executed successfully 
+ user: shane time: Mon Mar 19 13:31:46 2018
+ message: mod fork 
+ user: shane time: Mon Mar 19 13:31:46 2018
+ message: back mess fork 
+ user: shane time: Mon Mar 19 13:31:46 2018
+ message: inside bakup mess q user: shane time: Mon Mar 19 13:31:46 2018
+ message: The backup and log program has begun user: shane time: Mon Mar 19 13:32:51 2018
+ message: audit executed successfully 
+ user: shane time: Mon Mar 19 13:32:51 2018
+ message: mod fork 
+ user: shane time: Mon Mar 19 13:32:51 2018
+ message: back mess fork 
+ user: shane time: Mon Mar 19 13:32:51 2018
+ message: inside bakup mess q user: shane time: Mon Mar 19 13:32:51 2018
+ message: The backup and log program has begun user: shane time: Mon Mar 19 13:45:36 2018
+ message: audit executed successfully 
+ user: shane time: Mon Mar 19 13:45:36 2018
+ message: back mess fork 
+ user: shane time: Mon Mar 19 13:45:36 2018
+ message: inside bakup mess q user: shane time: Mon Mar 19 13:45:36 2018
+ message: mod fork 
+ user: shane time: Mon Mar 19 13:45:36 2018
+ message: The backup and log program has begun user: shane time: Mon Mar 19 13:47:19 2018
+ message: audit executed successfully 
+ user: shane time: Mon Mar 19 13:47:19 2018
+ message: mod fork 
+ user: shane time: Mon Mar 19 13:47:19 2018
+ message: back mess fork 
+ user: shane time: Mon Mar 19 13:47:19 2018
+ message: inside bakup mess q user: shane time: Mon Mar 19 13:47:19 2018
+ message: The backup and log program has begun user: shane time: Mon Mar 19 13:50:51 2018
+ message: audit executed successfully 
+ user: shane time: Mon Mar 19 13:50:51 2018
+ message: mod fork 
+ user: shane time: Mon Mar 19 13:50:51 2018
+ message: back mess fork 
+ user: shane time: Mon Mar 19 13:50:51 2018
+ message: inside bakup mess q user: shane time: Mon Mar 19 13:50:51 2018
+ message: The backup and log program has begun user: shane time: Mon Mar 19 13:52:43 2018
+ message: audit executed successfully 
+ user: shane time: Mon Mar 19 13:52:44 2018
+ message: mod fork 
+ user: shane time: Mon Mar 19 13:52:44 2018
+ message: back mess fork 
+ user: shane time: Mon Mar 19 13:52:44 2018
+ message: inside bakup mess q user: shane time: Mon Mar 19 13:52:44 2018
+ message: The backup and log program has begun user: shane time: Mon Mar 19 13:56:57 2018
+ message: audit executed successfully 
+ user: shane time: Mon Mar 19 13:56:57 2018
+ message: mod fork 
+ user: shane time: Mon Mar 19 13:56:57 2018
+ message: back mess fork 
+ user: shane time: Mon Mar 19 13:56:57 2018
+ message: inside bakup mess q user: shane time: Mon Mar 19 13:56:57 2018
+ message: The backup and log program has begun user: shane time: Mon Mar 19 14:05:38 2018
+ message: audit executed successfully 
+ user: shane time: Mon Mar 19 14:05:38 2018
+ message: back mess fork 
+ user: shane time: Mon Mar 19 14:05:38 2018
+ message: inside bakup mess q user: shane time: Mon Mar 19 14:05:38 2018
+ message: mod fork 
+ user: shane time: Mon Mar 19 14:05:38 2018
+ message: The backup and log program has begun user: shane time: Mon Mar 19 14:08:18 2018
+ message: audit executed successfully 
+ user: shane time: Mon Mar 19 14:08:18 2018
+ message: back mess fork 
+ user: shane time: Mon Mar 19 14:08:18 2018
+ message: inside bakup mess q user: shane time: Mon Mar 19 14:08:18 2018
+ message: mod fork 
+ user: shane time: Mon Mar 19 14:08:18 2018
+ message: The backup and log program has begun user: shane time: Mon Mar 19 14:18:43 2018
+ message: audit executed successfully 
+ user: shane time: Mon Mar 19 14:18:43 2018
+ message: back mess fork 
+ user: shane time: Mon Mar 19 14:18:43 2018
+ message: inside bakup mess q user: shane time: Mon Mar 19 14:18:43 2018
+ message: mod fork 
+ user: shane time: Mon Mar 19 14:18:43 2018
+ message: The backup and log program has begun user: shane time: Mon Mar 19 14:29:35 2018
+ message: audit executed successfully 
+ user: shane time: Mon Mar 19 14:29:35 2018
+ message: back mess fork 
+ user: shane time: Mon Mar 19 14:29:35 2018
+ message: inside bakup mess q user: shane time: Mon Mar 19 14:29:35 2018
+ message: here user: shane time: Mon Mar 19 14:29:35 2018
+ message: mod fork 
+ user: shane time: Mon Mar 19 14:29:35 2018
+ message: The backup and log program has begun user: shane time: Mon Mar 19 14:33:30 2018
+ message: audit executed successfully 
+ user: shane time: Mon Mar 19 14:33:30 2018
+ message: mod fork 
+ user: shane time: Mon Mar 19 14:33:30 2018
+ message: back mess fork 
+ user: shane time: Mon Mar 19 14:33:30 2018
+ message: inside bakup mess q user: shane time: Mon Mar 19 14:33:30 2018
+ message: here user: shane time: Mon Mar 19 14:33:30 2018
+ message: The backup and log program has begun user: shane time: Mon Mar 19 14:39:32 2018
+ message: audit executed successfully 
+ user: shane time: Mon Mar 19 14:39:32 2018
+ message: mod fork 
+ user: shane time: Mon Mar 19 14:39:32 2018
+ message: back mess fork 
+ user: shane time: Mon Mar 19 14:39:32 2018
+ message: inside bakup mess q user: shane time: Mon Mar 19 14:39:32 2018
+ message: here user: shane time: Mon Mar 19 14:39:32 2018
+ message: The backup and log program has begun user: shane time: Mon Mar 19 14:41:12 2018
+ message: audit executed successfully 
+ user: shane time: Mon Mar 19 14:41:12 2018
+ message: back mess fork 
+ user: shane time: Mon Mar 19 14:41:12 2018
+ message: inside bakup mess q user: shane time: Mon Mar 19 14:41:12 2018
+ message: here user: shane time: Mon Mar 19 14:41:12 2018
+ message: mod fork 
+ user: shane time: Mon Mar 19 14:41:12 2018
+ message: backup and push was called user: shane time: Mon Mar 19 14:41:19 2018
+ message: backing up......................
+ user: shane time: Mon Mar 19 14:41:19 2018
  message: backup done
- user: shane time: Sun Mar 18 18:04:00 2018
+ user: shane time: Mon Mar 19 14:41:19 2018
  message: Pushing to live....
- user: shane time: Sun Mar 18 18:04:00 2018
+ user: shane time: Mon Mar 19 14:41:19 2018
  message: Push complete
- user: shane time: Sun Mar 18 18:04:00 2018
- message: The backup and log program has begun user: shane time: Sun Mar 18 19:49:54 2018
- message: Parent process created
- user: shane time: Sun Mar 18 19:49:54 2018
- message: calling audit
- user: shane time: Sun Mar 18 19:49:54 2018
+ user: shane time: Mon Mar 19 14:41:19 2018
+ message: The backup and log program has begun user: shane time: Mon Mar 19 14:43:13 2018
  message: audit executed successfully 
- user: shane time: Sun Mar 18 19:49:54 2018
- message: after audit 
- user: shane time: Sun Mar 18 19:49:54 2018
- message: The backup and log program has begun user: root time: Sun Mar 18 19:50:14 2018
- message: Parent process created
- user: root time: Sun Mar 18 19:50:14 2018
- message: calling audit
- user: root time: Sun Mar 18 19:50:14 2018
+ user: shane time: Mon Mar 19 14:43:13 2018
+ message: inside the if user: shane time: Mon Mar 19 14:43:13 2018
+ message: mod fork 
+ user: shane time: Mon Mar 19 14:43:13 2018
+ message: back mess fork 
+ user: shane time: Mon Mar 19 14:43:13 2018
+ message: inside bakup mess q user: shane time: Mon Mar 19 14:43:13 2018
+ message: here user: shane time: Mon Mar 19 14:43:13 2018
+ message: backup and push was called user: shane time: Mon Mar 19 14:43:36 2018
+ message: backing up......................
+ user: shane time: Mon Mar 19 14:43:36 2018
+ message: backup done
+ user: shane time: Mon Mar 19 14:43:37 2018
+ message: Pushing to live....
+ user: shane time: Mon Mar 19 14:43:37 2018
+ message: Push complete
+ user: shane time: Mon Mar 19 14:43:37 2018
+ message: The backup and log program has begun user: shane time: Mon Mar 19 16:11:33 2018
  message: audit executed successfully 
- user: root time: Sun Mar 18 19:50:14 2018
- message: after audit 
- user: root time: Sun Mar 18 19:50:14 2018
+ user: shane time: Mon Mar 19 16:11:33 2018
+ message: back mess fork 
+ user: shane time: Mon Mar 19 16:11:33 2018
+ message: inside bakup mess q user: shane time: Mon Mar 19 16:11:33 2018
+ message: here user: shane time: Mon Mar 19 16:11:33 2018
+ message: mod fork 
+ user: shane time: Mon Mar 19 16:11:33 2018
+ message: inside the if user: shane time: Mon Mar 19 16:11:33 2018
  
